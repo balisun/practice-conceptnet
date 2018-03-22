@@ -18,7 +18,8 @@
   :version "0.1"
   :author "Bali Sun"
   :license ""
-  :depends-on ()
+  :depends-on (:drakma
+               :ningle)
   :components ((:module "src"
                 :components
                 ((:file "practice-conceptnet"))))
